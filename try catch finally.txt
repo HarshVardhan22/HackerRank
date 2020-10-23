@@ -1,0 +1,12 @@
+  try {
+    let str;
+    str = s.split('') 
+    str = str.reverse();
+    str = str.join('');
+    console.log(str);
+    }
+catch(err){
+    console.log(err.message);
+     console.log(s);
+    
+}

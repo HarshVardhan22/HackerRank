@@ -25,15 +25,14 @@ function minBribes(q){
                         }
                     }
                     bribe = 0;
-                }
-                
+                }              
             })
         }
         if(flag)
             break;
     }
     if(flag===0)
-    return console.log(minBribe);
+        return console.log(minBribe);
 
 }
 

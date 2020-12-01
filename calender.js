@@ -57,8 +57,5 @@ function getDayName(dateString) {
     return dayName[f]
     
 }
-// 01/01/1990
-// 09/11/1999
-// 12/12/2013
-// 12/12/2012
+
 getDayName("12/12/2012");
